@@ -22,5 +22,7 @@ class App < Sinatra::Base
     @number = params[:num1].to_i + params[:num2].to_i
     "#{@number}"
   end
+  
+  end
 
 end
